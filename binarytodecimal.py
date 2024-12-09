@@ -9,7 +9,7 @@ def binary_to_decimal(binary_str):
 def decimal_to_binary(decimal):
     """Convert decimal integer to binary string."""
     try:
-        binary = bin(decimal)[2:]  # Remove '0b' prefix
+        binary = bin(decimal)[2:] 
         return binary
     except TypeError:
         return "Invalid decimal input."
